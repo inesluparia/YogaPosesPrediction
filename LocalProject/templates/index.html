@@ -1,0 +1,21 @@
+<h1>Welcome to the yoga position detector!</h1>
+
+    <h3>Are you too much of a begginer to know if its really yoga you are doing? Just upload your picture and this model will tell you which 'asana' it is!</h3> 
+    
+    <p>Note this prototype version is currently fed with and detecting from 4 asanas, so try with one of these:</p>
+      <ol>
+        <li>Downward facing dog - adho mukha svanasana</li>
+        <li>Head stand - adho mukha vriksasana</li>
+        <li>Crow pose - bakasana</li>
+        <li>Chaturanga - chaturanga dandasana</li>
+      </ol>  
+    
+    <h1>Upload picture</h1>
+    
+        <form method="POST" enctype="multipart/form-data" accept="image/*">
+          <p><input type="file" name="file"></p>
+          <p><input type="submit" value="Submit"></p>
+        </form>
+        <h2>The result is {{ result }}</h2>    
+    
+    https://drive.google.com/uc?export=download&id=1cj8dg2Z1LFF4CP-36kXYApkR-Sw-2J7b
